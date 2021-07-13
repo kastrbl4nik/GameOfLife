@@ -15,7 +15,7 @@ private:
 	int m_mapHeight;
 	int CountNeighbours(int x, int y);
 	float m_timer = 0.0f;
-	float m_generationLifespan = 0.01f;
+	float m_generationLifespan = 0.02f;
 	bool m_paused = false;
 public:
 	Game(const char* map);
